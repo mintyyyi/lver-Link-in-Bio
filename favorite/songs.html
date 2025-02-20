@@ -1,0 +1,135 @@
+t<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lver's Link-in-Bio</title>
+    <script src="/titleChanger.js"></script>
+    <style>
+        body {
+            background-image: url("https://cdn.glitch.global/42fd0f0c-7759-4ba4-852d-32a02aea3d65/pink%20hearts.jpeg?v=1739655193838");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #333333;
+            border-radius: 10px;
+            background-color: #1e1e1e;
+            max-width: 1200px;
+            width: 90%;
+            margin: 20px;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+        h1 {
+            font-size: 22px;
+            margin: 10px 0;
+            color: #FF69B4;
+        }
+        p {
+            color: #ccc;
+        }
+        .customHeader {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        footer {
+            font-size: 0.8em;
+            color: #aaa;
+            margin-top: 20px;
+        }
+        #footerButton {
+          font-size: 0.8em;
+          margin-top: 20px;
+      }
+        .link {
+            display: block;
+            text-decoration: none;
+            color: white;
+            background: #444;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .link:hover {
+            background: #666;
+        }
+        .hearts {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "\2665"; /* Unicode for white heart ♡ */
+            color: white;
+            margin-right: 8px;
+        }
+        #wLink {
+          color: white;
+        }
+        .footer {
+            font-size: 0.8em;
+            color: #aaa;
+            margin-top: 20px;
+        }
+        .changer {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts">🩷🩷🩷</div>
+        <img src="https://cdn.glitch.global/42fd0f0c-7759-4ba4-852d-32a02aea3d65/heart%20hands.jpeg?v=1739655386522" alt="Profile Picture">
+        <h1 id="name">Lverx (Lver)</h1>
+    <div class="bio">
+        <p id="changingParagraph">!! DO NOT DELETE !!</p>
+        <p class="customHeader">Favorite Songs!!:</p>
+        <p id="songs">
+          <ul>
+            <li>Bohnes: Raging on a Sunday</li>
+            <li>My Darkest Days: Porn Star Dancing</li>
+            <li>VOILA: Drinking with Cupid</li>
+            <li>Hollywood Undead: Undead</li>
+            <li>Bohnes: 12 Rounds</li>
+            <li>TOKYO'S REVENGE: GOODMORNINGTOKYO</li>
+            <li>Nafeeisboujee: Stephanie</li>
+      </ul>
+      <p id="changer" class="customHeader"></p>
+      <p id="authors">
+        <ul>
+          <li>NEFFEX</li>
+          <li>Conner Kauffman</li>
+          <li>Insane Clown Posse</li>
+          <li>Bohnes</li>
+          <li>Skillet</li>
+      </ul></p>
+        </p>
+                   </div>
+        <p class="footer">Protected by CC BY-NC-SA 4.0</p>
+        <a href="/index.html" class="link" id="footerButton">Back</a>
+    </div>
+    <script src="/paraChanger.js"></script>
+    <script src="/NotableAuthors.js"></script>
+</body>
+</html>
