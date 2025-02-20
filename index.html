@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lver's Link-in-Bio</title>
+    <script src="titleChanger.js"></script>
+    <style>
+      body {
+        background-image: url("https://cdn.glitch.global/42fd0f0c-7759-4ba4-852d-32a02aea3d65/pink%20hearts.jpeg?v=1739655193838");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #333333;
+        border-radius: 10px;
+        background-color: #1e1e1e;
+        max-width: 1200px;
+        width: 90%;
+        margin: 20px;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid white;
+      }
+      h1 {
+        font-size: 22px;
+        margin: 10px 0;
+        color: #ff69b4;
+      }
+      p {
+        color: #ccc;
+      }
+      #bio3 {
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+      footer {
+        font-size: 0.8em;
+        color: #aaa;
+        margin-top: 20px;
+      }
+      .link {
+        display: block;
+        text-decoration: none;
+        color: white;
+        background: #444;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        transition: background 0.3s;
+      }
+      .link:hover {
+        background: #666;
+      }
+      .hearts {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      ul li::before {
+        content: "\2665"; /* Unicode for white heart ♡ */
+        color: white;
+        margin-right: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hearts">🩷🩷🩷</div>
+      <img
+        src="https://cdn.glitch.global/42fd0f0c-7759-4ba4-852d-32a02aea3d65/heart%20hands.jpeg?v=1739655386522"
+        alt="Profile Picture"
+      />
+      <h1 id="name">Lverx (Lver)</h1>
+      <div class="bio">
+        <p id="bio1">Developer | Designer | Manufacturer | Writer</p>
+        <p id="bio2">!! DO NOT DELETE !!</p>
+        <p id="bio3">ABOUT ME:</p>
+        <ul>
+          <li>
+            Coding, designing, and writing research papers fuel my creativity.
+          </li>
+          <li>Caffeine keeps me going.</li>
+          <li>Half kind, half selfish, I strive for balance.</li>
+          <li>Certified in hacking and coding.</li>
+          <li>I set my sights on a government position in the future.</li>
+        </ul>
+      </div>
+      <a href="mailto:lverz@googlegroups.com" class="link">Email</a>
+      <a href="sms:12312846543" class="link">SMS</a>
+      <a href="/favorite/songs.html" class="link">My Fav Songs</a>
+      <footer>Protected under CC BY-NC-ND 4.0</footer>
+      <footer>&copy; 2025 Lverz Development</footer>
+    </div>
+    <script src="calcAge.js"></script>
+  </body>
+</html>
